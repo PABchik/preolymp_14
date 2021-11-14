@@ -1,6 +1,8 @@
 def func(a, b, c, d, e):
     return a and b and not e or (a and b or c or d) and not e
 
+def func1(a, b, c, d, e):
+    return (a and b and not e) or (c and not e) or (d and not e)
 
 counter = 0
 print("A B C D E : F")
